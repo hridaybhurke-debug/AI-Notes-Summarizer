@@ -1,7 +1,7 @@
-# AI Notes Summarizer
+# Notes Summarizer
 
 ## About the Project
-AI Notes Summarizer is a group academic project designed to generate concise summaries from lengthy meeting notes. It also identifies important decisions and action items to make meeting information easier to understand.
+Notes Summarizer is a group academic project designed to generate concise summaries from lengthy meeting notes. It also identifies important decisions and action items to make meeting information easier to understand.
 
 ## Features
 - Generates short summaries from meeting notes.
@@ -25,7 +25,7 @@ AI Notes Summarizer is a group academic project designed to generate concise sum
 
 2. Open the project folder:
    ```bash
-   cd AI-Notes-Summarizer
+   cd -Notes-Summarizer
    ```
 
 3. Install dependencies:
@@ -45,4 +45,4 @@ AI Notes Summarizer is a group academic project designed to generate concise sum
 Group Academic Project
 
 ## Note
-Developed collaboratively with AI tools used for development assistance.
+Developed collaboratively with  tools used for development assistance.
