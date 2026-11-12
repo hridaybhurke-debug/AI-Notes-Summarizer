@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Meeting Notes Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>AI Meeting Notes Generator</h1>
+        <p>Turn long meeting notes into clear summaries.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>Enter Meeting Notes</h2>
+
+            <label for="meetingTitle">Meeting Title</label>
+            <input
+                type="text"
+                id="meetingTitle"
+                placeholder="Example: Project Review Meeting"
+            >
+
+            <label for="meetingNotes">Meeting Notes</label>
+            <textarea
+                id="meetingNotes"
+                rows="10"
+                placeholder="Enter your meeting notes here..."
+            ></textarea>
+
+            <div class="button-group">
+                <button id="generateBtn">Generate Summary</button>
+                <button id="clearBtn" class="secondary">
+                    Clear
+                </button>
+            </div>
+
+            <p id="status"></p>
+        </section>
+
+        <section class="card results" id="results" hidden>
+
+            <h2>Meeting Summary</h2>
+
+            <h3>Summary</h3>
+            <p id="summary"></p>
+
+            <h3>Key Decisions</h3>
+            <ul id="decisions"></ul>
+
+            <h3>Action Items</h3>
+            <ul id="actions"></ul>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>AI Meeting Notes Generator | Student Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
